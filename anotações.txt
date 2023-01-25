@@ -1,0 +1,3 @@
+Usei o repositorio do profesor guanabara para estudar javascript e html, refiz todos os exercicios, foi de grande ajuda
+o link do repositorio está aqui
+https://gustavoguanabara.github.io/javascript/exercicios/

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jotaro</title>
+</head>
+
+<body>
+
+    <h1>Trabalhando com Dados 2.0</h1>
+
+    <button onclick="clicar()">Clique para começar</button>
+
+    <div id="resultado">
+        <p>Resultado vai aparecer aqui...</p>
+    </div>
+    <!-- criei essa div apenas para aparecer o resultado e fazer uma interaçao DOM entre javascript e html-->
+
+    <script>
+
+        function clicar() {
+
+            let nome = window.prompt("Qual é seu nome ?")
+            let resultado = document.getElementById('resultado')
+            // criei a variavel resultado colocar a div dentro dela
+            resultado.innerHTML = `<p> Olá ${nome} ! Que bom te ver aqui :) </p> `
+
+        }
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jotaro</title>
+</head>
+
+<body>
+
+    <h1>Trabalhando com números</h1>
+
+    <button onclick="somar()">Clique para calcular</button>
+
+    <div id="resultado">
+        <p>Resultado vai aparecer aqui</p>
+        <!-- eu posso deixar esse espaço vazio se eu quiser mas aqui é aprendizado -->
+    </div>
+
+    <script>
+
+        function somar() {
+
+            let n1 = Number(window.prompt('digite um numero '))
+            let n2 = Number(window.prompt('digite outro numero'))
+            let soma = (n1 + n2)
+            let resultado = document.getElementById('resultado')
+
+            resultado.innerHTML = `<p>A soma entre ${n1} e ${n2} é ${soma}</p>`
+
+
+        }
+
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>

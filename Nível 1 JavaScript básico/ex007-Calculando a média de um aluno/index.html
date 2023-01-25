@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jotaro</title>
+</head>
+
+<body>
+
+    <h1>Calculando Média do aluno</h1>
+
+    <button onclick="Calcular()">Calcular Média </button>
+
+    <div id="resultado">
+        <p>Resultado da média aparecerá aqui</p>
+    </div>
+
+    <script>
+
+        function Calcular() {
+
+            let nome = window.prompt('Qual o nome do aluno ?')
+            let nota1 = Number(window.prompt('Qual a nota da primeira prova ?'))
+            let nota2 = Number(window.prompt('Qual a nota da segunda prova ?'))
+            let media = (nota1 + nota2) / 2
+            let resultado = document.getElementById("resultado")
+
+            resultado.innerHTML = `<p>Calculando a média final de ${nome}:</p>`
+            resultado.innerHTML += `<p>As notas obtidas foram : ${nota1} e ${nota2}</p>`
+            resultado.innerHTML += `<p>A média final será ${media}</p>`
+            // O += é necessário, pois indica um pedido de "mantenha a frase anterior,
+            // adicionando essa outra frase". Se não fosse ele, a linha anterior seria apagada.
+
+
+
+        }
+
+
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>
