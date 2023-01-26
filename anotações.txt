@@ -1,4 +1,4 @@
 Usei o repositorio do profesor guanabara para estudar javascript e html, refiz todos os exercicios, foi de grande ajuda,
-do nivel 1 até o nivel 3 foi criado pelo guanabara os exercicios, a partir da do nivel 4 foi eu mesmo que criei
+do nivel 1 até o nivel 3 foram criados pelo professor guanabara, a partir  do nivel 4 foi eu mesmo que criei
 o link do repositorio está aqui
 https://gustavoguanabara.github.io/javascript/exercicios/
