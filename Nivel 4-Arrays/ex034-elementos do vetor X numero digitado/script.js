@@ -7,7 +7,6 @@ function produto() {
     let num = Number(document.getElementById("num").value)
 
     let vetor = [n1, n2, n3, n4]
-    let multi = 1;
     saida.innerHTML += `<h2>Resultado </h2>`
     for (let i = 0; i < vetor.length; i++) {
         
