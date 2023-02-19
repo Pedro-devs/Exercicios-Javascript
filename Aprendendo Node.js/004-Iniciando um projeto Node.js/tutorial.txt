@@ -1,0 +1,4 @@
+-Entrar no cmd
+-colocar cd e o local da pasta que vc irá usar para fazer um projeto node.js
+-digitar npm init, e colocar as informações do seu projeto, tudo sobre seu projeto 
+-digitar npm install express --save
